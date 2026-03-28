@@ -47,8 +47,8 @@ pip install -r requirements.txt
 ### 3. API Credentials
 Set your API credentials as environment variables:
 ```powershell
-$env:BINANCE_API_KEY="your_api_key"
-$env:BINANCE_API_SECRET="your_api_secret"
+$env:BINANCE_API_KEY="8l9CSty6zThsu0KpyvVuFJIG78DcIO2U3Z44oduJjxqYKIrUhmwoaqUyHA3bd3eD"
+$env:BINANCE_API_SECRET="dhcE911CZs8UYdJ6FcR8uKdaNQSE0BAdTyOt19I0Kb2hadrVJnoMXadBIOt54W0V"
 ```
 
 ## 📈 Usage Examples
