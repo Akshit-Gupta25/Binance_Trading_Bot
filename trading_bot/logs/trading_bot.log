@@ -1,0 +1,21 @@
+2026-03-28 21:07:32,206 ERROR trading_bot.cli missing_api_credentials
+2026-03-28 22:34:32,241 INFO trading_bot.orders order_request {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 80000.0, 'timeInForce': 'GTC'}
+2026-03-28 22:34:32,251 INFO trading_bot.client request POST https://testnet.binancefuture.com/fapi/v1/order {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 80000.0, 'timeInForce': 'GTC', 'timestamp': 1774717472241, 'recvWindow': 5000, 'signature': 'eead4aaaf5fd0f1420bf69f7003e1fca837d415c57cc70d92d59588e1760bfb2'}
+2026-03-28 22:34:32,723 ERROR trading_bot.client response_error 400 {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-03-28 22:34:32,747 ERROR trading_bot.cli order_failed {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-03-28 22:39:07,490 INFO trading_bot.orders order_request {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '80000.0', 'timeInForce': 'GTC'}
+2026-03-28 22:39:07,491 INFO trading_bot.client request POST https://testnet.binancefuture.com/fapi/v1/order {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '80000.0', 'timeInForce': 'GTC', 'timestamp': 1774717747490, 'recvWindow': 5000, 'signature': 'e8fd2090d3a14ffd014c98c7763db8ebab50a3a57a49162f0f1fe220b13e2d80'}
+2026-03-28 22:39:07,673 ERROR trading_bot.client response_error 400 {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28 22:39:07,674 ERROR trading_bot.cli order_failed {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28 22:39:26,265 INFO trading_bot.orders order_request {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-03-28 22:39:26,266 INFO trading_bot.client request POST https://testnet.binancefuture.com/fapi/v1/order {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1774717766266, 'recvWindow': 5000, 'signature': '13d439f02ace755c46e58ddbce9a5b963e65eb5dd203b6a319bba95a729b3264'}
+2026-03-28 22:39:26,440 ERROR trading_bot.client response_error 400 {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28 22:39:26,441 ERROR trading_bot.cli order_failed {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28 23:26:45,367 INFO trading_bot.orders order_request {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '80000.0', 'timeInForce': 'GTC'}
+2026-03-28 23:26:45,369 INFO trading_bot.client request POST https://testnet.binancefuture.com/fapi/v1/order {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '80000.0', 'timeInForce': 'GTC', 'timestamp': 1774720605368, 'recvWindow': 5000, 'signature': '1d403097373914634abfa3f1c26d1fb2124ceebd4eeaecf3c92cb08b821b704e'}
+2026-03-28 23:26:45,553 ERROR trading_bot.client response_error 400 {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28 23:26:45,589 ERROR trading_bot.cli order_failed {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28 23:26:52,792 INFO trading_bot.orders order_request {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-03-28 23:26:52,792 INFO trading_bot.client request POST https://testnet.binancefuture.com/fapi/v1/order {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1774720612792, 'recvWindow': 5000, 'signature': '2ab78fd1b3fded2625f8ffd0e3c623b8eb0b6a0df73aadbbac424ed5f8e90cb1'}
+2026-03-28 23:26:52,975 ERROR trading_bot.client response_error 400 {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-28 23:26:52,976 ERROR trading_bot.cli order_failed {"code":-4164,"msg":"Order's notional must be no smaller than 100 (unless you choose reduce only)."}

@@ -1,0 +1,2 @@
+httpx>=0.25,<1.0
+binance-connector>=3.12,<4.0
